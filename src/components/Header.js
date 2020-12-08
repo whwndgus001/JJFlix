@@ -3,7 +3,7 @@ import { Link, withRouter } from "react-router-dom";
 import styled from "styled-components";
 
 const Header = styled.header`
-  color: white;
+  color: black;
   position: fixed;
   top: 0;
   left: 0;
@@ -12,8 +12,8 @@ const Header = styled.header`
   display: flex;
   align-items: center;
   padding: 0px 10px;
-  background-color: rgba(20, 20, 20, 0.8);
-  box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.8);
   z-index: 10;
 `;
 
@@ -26,7 +26,7 @@ const Item = styled.li`
   text-align: center;
   height: 50px;
   border-bottom: 3px solid
-    ${(props) => (props.current ? "#3498db" : "transparent")};
+    ${(props) => (props.current ? "#141414" : "transparent")};
   transition: border-bottom 0.5s ease-in-out;
 `;
 

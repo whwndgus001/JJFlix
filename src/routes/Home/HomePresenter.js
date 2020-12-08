@@ -16,7 +16,7 @@ const HomePresenter = ({ nowPlaying, upcoming, popular, error, loading }) => {
   return (
     <>
       <Helmet>
-        <title>Movies | Bitflix</title>
+        <title>Movies | JJflix</title>
       </Helmet>
       {loading ? (
         <Loader />

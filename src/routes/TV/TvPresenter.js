@@ -16,7 +16,7 @@ const TvPresenter = ({ topRated, popular, airingToday, error, loading }) => {
   return (
     <>
       <Helmet>
-        <title>TV | Bitflix</title>
+        <title>TV | JJflix</title>
       </Helmet>
       {loading ? (
         <Loader />
